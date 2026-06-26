@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+env
+myenv
+venv
+uv.lock
+.env
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+.log
+*.tmp
+!config/settings.json
+logs/*.log
+
+# Ignore a specific file
+secret_tokens.txt
+notebook/The_Calm_Productivity_System.pdf
